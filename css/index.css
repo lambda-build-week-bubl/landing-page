@@ -274,6 +274,78 @@ h6 {
   margin: 10px 0
 }
 
+.banner {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  padding-top: 30px;
+}
+
+.button {
+  background: #B8E986;
+  font-family: "Montserrat", sans-serif;
+  font-size: 21px;
+  color: #395751;
+  letter-spacing: 0;
+  text-align: center;
+  width: 200px;
+  margin-top: 30px;
+  border-radius: 5px;
+}
+
+.header-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: #FFFFFF;
+  letter-spacing: 4px;
+  text-align: center;
+}
+
+.header-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 48px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  text-align: center;
+  margin: 0 20px
+}
+
+.header-sub {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  text-align: center;
+  opacity: .7;
+  margin: 10px 20px;
+}
+
+.header-container1 {
+  height: 30%;
+  align-items: center;
+}
+@media only screen and (max-width: 500px) {
+  .header-container1 {
+    height: 25%;
+  }
+}
+.main-head {
+  background-image: url(/assests/Bubl-Banner-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+  text-align: center;
+  display: block;
+}
+
+@media only screen and (max-width: 320px) {
+  .main-head { 
+      display: none; 
+  }
+}
+
 .w3-wide {
   letter-spacing: 4px
 }
