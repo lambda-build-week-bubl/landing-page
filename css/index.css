@@ -282,6 +282,12 @@ h6 {
   padding-top: 30px;
 }
 
+@media only screen and (min-width: 1200px) {
+  .banner {
+    width: 20%;
+  }
+}
+
 .button {
   background: #B8E986;
   font-family: "Montserrat", sans-serif;
@@ -290,7 +296,8 @@ h6 {
   letter-spacing: 0;
   text-align: center;
   width: 200px;
-  margin-top: 30px;
+  height: 65px;
+  margin-top: 70px;
   border-radius: 5px;
 }
 
@@ -330,6 +337,11 @@ h6 {
     height: 25%;
   }
 }
+
+.header-container2 {
+  vertical-align: center;
+}
+
 .main-head {
   background-image: url(/assests/Bubl-Banner-bg.png);
   background-repeat: no-repeat;
@@ -344,6 +356,20 @@ h6 {
   .main-head { 
       display: none; 
   }
+}
+
+.section2 {
+  background-color: rgba(92, 126, 119, 0.123);
+}
+
+.subgreen1 {
+  font-style: italic;
+  color: #6b978e;
+}
+
+.subgreen2 {
+  font-style: normal;
+  color: #6b978e; 
 }
 
 .w3-wide {
@@ -714,6 +740,12 @@ a {
 .w3-quarter {
   float: left;
   width: 100%
+}
+@media only screen and (max-width: 600px) {
+  .w3-twothird {
+    text-align: center;
+    margin-bottom: 40px;
+  }
 }
 
 .w3-col.s1 {
