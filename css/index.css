@@ -299,6 +299,7 @@ h6 {
   height: 65px;
   margin-top: 70px;
   border-radius: 5px;
+  border-color: #B8E986
 }
 
 .header-title {
@@ -350,6 +351,7 @@ h6 {
   height: 800px;
   text-align: center;
   display: block;
+  opacity: .85;
 }
 
 @media only screen and (max-width: 320px) {
@@ -745,6 +747,7 @@ a {
   .w3-twothird {
     text-align: center;
     margin-bottom: 40px;
+    
   }
 }
 
@@ -823,7 +826,8 @@ a {
   }
   .w3-col.m8,
   .w3-twothird {
-      width: 66.66666%
+      width: 66.66666%;
+      padding-left: 40px;
   }
   .w3-col.m9,
   .w3-threequarter {
