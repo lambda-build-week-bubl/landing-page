@@ -60,7 +60,8 @@ template {
 
 a {
   background-color: transparent;
-  -webkit-text-decoration-skip: objects
+  -webkit-text-decoration-skip: objects;
+  text-decoration: none;
 }
 
 a:active,
@@ -392,6 +393,43 @@ h6 {
   opacity: .85;
 }
 
+.main-head2 {
+  background-image: url(/assests/AboutPage-banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+  text-align: center;
+  display: block;
+  opacity: .85;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  text-align: center;
+  opacity: .7;
+  margin: 10px 20px;
+  text-decoration: none !important;
+}
+
+.login {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  text-align: center;
+  opacity: .7;
+  margin: 10px 20px;
+}
+
 .section2 {
   background-color: rgba(92, 126, 119, 0.123);
 }
@@ -404,6 +442,12 @@ h6 {
 .subgreen2 {
   font-style: normal;
   color: #6b978e; 
+}
+
+.youdid {
+  width: 40%;
+  text-align: center;
+  margin-top: 40px;
 }
 
 .w3-wide {
