@@ -27,6 +27,7 @@
   var startTime = new Date()
   var elapsedTime
   var dismissonloadfunc, maxloadingtimer
+  fadeOut();
    
   if (animation && document.documentElement && document.documentElement.classList){
       document.documentElement.classList.add('hidescrollbar')
@@ -61,6 +62,7 @@
   }
   else{
       document.getElementById('pageloader').style.display = 'none'
+      fadeOut();
   }
 
 })();
@@ -68,5 +70,6 @@
 function fadeOut() {
   window.addEventListener('beforeunload', function () {
     document.body.classList.add('fadeout');
+    console.log("fade");
   }, false);
 }
