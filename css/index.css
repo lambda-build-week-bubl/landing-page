@@ -417,7 +417,7 @@ h6 {
   letter-spacing: 0;
   text-align: center;
   opacity: .7;
-  margin: 30px 30px;
+  margin: 40px 0 0 40px;
   text-decoration: none !important;
 }
 
@@ -428,7 +428,7 @@ h6 {
   letter-spacing: 0;
   text-align: center;
   opacity: .7;
-  margin: 30px 30px;
+  margin: 40px 40px 0 0;
 }
 
 .position {
