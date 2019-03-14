@@ -407,6 +407,7 @@ h6 {
 .nav-container {
   display: flex;
   justify-content: space-between;
+  
 }
 
 .about {
@@ -416,7 +417,7 @@ h6 {
   letter-spacing: 0;
   text-align: center;
   opacity: .7;
-  margin: 10px 20px;
+  margin: 30px 30px;
   text-decoration: none !important;
 }
 
@@ -427,7 +428,11 @@ h6 {
   letter-spacing: 0;
   text-align: center;
   opacity: .7;
-  margin: 10px 20px;
+  margin: 30px 30px;
+}
+
+.position {
+  color: #6b978e;
 }
 
 .section2 {
@@ -448,6 +453,16 @@ h6 {
   width: 40%;
   text-align: center;
   margin-top: 40px;
+}
+
+@media only screen and (min-width: 1300px) {
+  .youdid {
+    width: 30%;
+  }
+}
+
+.underline {
+  text-decoration: underline;
 }
 
 .w3-wide {
