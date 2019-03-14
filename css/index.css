@@ -279,12 +279,19 @@ h6 {
   margin-left: auto;
   margin-right: auto;
   width: 30%;
-  padding-top: 30px;
+  padding-top: 40px;
 }
 
 @media only screen and (min-width: 1200px) {
   .banner {
     width: 20%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .banner {
+    width: 60%;
+    padding-top: 70px;
   }
 }
 
@@ -300,6 +307,35 @@ h6 {
   margin-top: 70px;
   border-radius: 5px;
   border-color: #B8E986
+}
+
+.figure {
+  height: 200px;
+  width: auto;
+  border-radius: 50%;
+}
+
+.member {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.name {
+  font-size: 25pt;
+  font-family: "Montserrat", sans-serif;
+}
+
+.members-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 900px) {
+  .members-container {
+    display: inline;
+    align-items: center;
+    text-align: center;
+  }
 }
 
 .header-title {
@@ -332,6 +368,7 @@ h6 {
 .header-container1 {
   height: 30%;
   align-items: center;
+  vertical-align: center;
 }
 @media only screen and (max-width: 500px) {
   .header-container1 {
@@ -341,6 +378,7 @@ h6 {
 
 .header-container2 {
   vertical-align: center;
+  padding-top: 20px;
 }
 
 .main-head {
@@ -352,12 +390,6 @@ h6 {
   text-align: center;
   display: block;
   opacity: .85;
-}
-
-@media only screen and (max-width: 320px) {
-  .main-head { 
-      display: none; 
-  }
 }
 
 .section2 {
